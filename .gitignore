@@ -31,3 +31,7 @@ plans/
 GSD-STYLE.md
 PROJECT_RULES.md
 model_capabilities.yaml
+
+# Sync tool logs
+sync-log.txt
+
