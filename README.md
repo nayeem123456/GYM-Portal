@@ -66,6 +66,3 @@ The compiled release/debug APK is available directly in this repository:
 
 ---
 
-## 🔄 Quick Sync Script (`sync.bat`)
-
-Double-click `sync.bat` in the root folder to pull the latest changes or push your updates to GitHub interactively.
