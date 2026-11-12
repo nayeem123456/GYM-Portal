@@ -1,0 +1,954 @@
+Class: Lma/a;
+  Fields:
+    - $stable: I
+    - checkInTime: Ljava/lang/String;
+    - checkOutTime: Ljava/lang/String;
+    - imageUrl: Ljava/lang/String;
+    - isCheckIn: Z
+    - isCheckOut: Z
+    - memberId: Ljava/lang/String;
+    - name: Ljava/lang/String;
+  Methods:
+    - <init>
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - component2
+    - component3
+    - component4
+    - component5
+    - component6
+    - component7
+    - copy
+    - equals
+    - getCheckInTime
+    - getCheckOutTime
+    - getImageUrl
+    - getMemberId
+    - getName
+    - hashCode
+    - isCheckIn
+    - isCheckOut
+    - setCheckIn
+    - setCheckInTime
+    - setCheckOut
+    - setCheckOutTime
+    - setImageUrl
+    - setMemberId
+    - setName
+    - toString
+
+Class: Lma/b;
+  Fields:
+    - $stable: I
+    - attendanceList: Ljava/util/ArrayList;
+    - dateString: Ljava/lang/String;
+  Methods:
+    - <init>
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - copy
+    - equals
+    - getAttendanceList
+    - getDateString
+    - hashCode
+    - setAttendanceList
+    - setDateString
+    - toString
+
+Class: Lma/c;
+  Fields:
+    - $stable: I
+    - batchId: Ljava/lang/String;
+    - batchInTime: Ljava/lang/String;
+    - batchName: Ljava/lang/String;
+    - batchOutTime: Ljava/lang/String;
+    - gymownerid: Ljava/lang/String;
+  Methods:
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - component2
+    - component3
+    - component4
+    - component5
+    - copy
+    - equals
+    - getBatchId
+    - getGymownerid
+    - hashCode
+    - setBatchId
+    - setGymownerid
+    - toString
+
+Class: Lma/d;
+  Fields:
+    - $stable: I
+    - dietPlanId: Ljava/lang/String;
+    - dietPlanName: Ljava/lang/String;
+  Methods:
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - component2
+    - copy
+    - equals
+    - getDietPlanId
+    - getDietPlanName
+    - hashCode
+    - toString
+
+Class: Lma/e;
+  Fields:
+    - $stable: I
+    - exercise: Ljava/util/List;
+    - id: Ljava/lang/String;
+    - name: Ljava/lang/String;
+    - workOutPlanId: Ljava/lang/String;
+  Methods:
+    - <init>
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - component2
+    - component3
+    - copy
+    - equals
+    - getExercise
+    - getId
+    - getName
+    - getWorkOutPlanId
+    - hashCode
+    - setExercise
+    - setId
+    - setName
+    - setWorkOutPlanId
+    - toString
+
+Class: Lma/f;
+  Fields:
+    - $stable: I
+    - accountCreationDate: Ljava/util/Date;
+    - appLanguage: Lma/i;
+    - countryCode: Ljava/lang/String;
+    - createdat: Ljava/lang/String;
+    - email: Ljava/lang/String;
+    - enableStaffAccess: Z
+    - expirydate: Ljava/lang/String;
+    - fcmToken: Ljava/lang/String;
+    - gymAddress: Ljava/lang/String;
+    - gymCity: Ljava/lang/String;
+    - gymCountry: Ljava/lang/String;
+    - gymSettings: Lma/g;
+    - gymname: Ljava/lang/String;
+    - gymownerid: Ljava/lang/String;
+    - isAccountActive: Z
+    - lastRegCode: Ljava/lang/String;
+    - name: Ljava/lang/String;
+    - note: Ljava/lang/String;
+    - notificationTurnedOff: Z
+    - parentAccountId: Ljava/lang/String;
+    - phone: Ljava/lang/String;
+    - photourl: Ljava/lang/String;
+    - staffBranchAccessEnabled: Z
+    - subscriptionPlanName: Ljava/lang/String;
+    - subscriptionPurchaseDate: Ljava/lang/String;
+    - subscriptionPurchased: Z
+    - templateFeatureEnabled: Z
+  Methods:
+    - <init>
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - component10
+    - component11
+    - component12
+    - component13
+    - component14
+    - component15
+    - component16
+    - component17
+    - component18
+    - component19
+    - component2
+    - component20
+    - component21
+    - component22
+    - component23
+    - component24
+    - component25
+    - component26
+    - component27
+    - component3
+    - component4
+    - component5
+    - component6
+    - component7
+    - component8
+    - component9
+    - copy
+    - equals
+    - getAccountCreationDate
+    - getAppLanguage
+    - getCountryCode
+    - getCreatedat
+    - getEmail
+    - getEnableStaffAccess
+    - getExpirydate
+    - getFcmToken
+    - getGymAddress
+    - getGymCity
+    - getGymCountry
+    - getGymSettings
+    - getGymname
+    - getGymownerid
+    - getLastRegCode
+    - getName
+    - getNote
+    - getNotificationTurnedOff
+    - getParentAccountId
+    - getPhone
+    - getPhotourl
+    - getStaffBranchAccessEnabled
+    - getSubscriptionPlanName
+    - getSubscriptionPurchaseDate
+    - getSubscriptionPurchased
+    - getTemplateFeatureEnabled
+    - hashCode
+    - isAccountActive
+    - setAccountActive
+    - setAccountCreationDate
+    - setAppLanguage
+    - setCountryCode
+    - setCreatedat
+    - setEmail
+    - setEnableStaffAccess
+    - setExpirydate
+    - setFcmToken
+    - setGymAddress
+    - setGymCity
+    - setGymCountry
+    - setGymSettings
+    - setGymname
+    - setGymownerid
+    - setLastRegCode
+    - setName
+    - setNote
+    - setNotificationTurnedOff
+    - setParentAccountId
+    - setPhone
+    - setPhotourl
+    - setStaffBranchAccessEnabled
+    - setSubscriptionPlanName
+    - setSubscriptionPurchaseDate
+    - setSubscriptionPurchased
+    - setTemplateFeatureEnabled
+    - toString
+
+Class: Lma/g;
+  Fields:
+    - $stable: I
+    - addLogoOnBill: Z
+    - addLogoOnIdCard: Z
+    - allowDuplicateMobileNumber: Z
+    - isOtpEnabled: Z
+    - useWhatsAppBusiness: Z
+  Methods:
+    - <init>
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - component2
+    - component3
+    - component4
+    - component5
+    - copy
+    - equals
+    - getAddLogoOnBill
+    - getAddLogoOnIdCard
+    - getAllowDuplicateMobileNumber
+    - getUseWhatsAppBusiness
+    - hashCode
+    - isOtpEnabled
+    - setAddLogoOnBill
+    - setAddLogoOnIdCard
+    - setAllowDuplicateMobileNumber
+    - setOtpEnabled
+    - setUseWhatsAppBusiness
+    - toString
+
+Class: Lma/h;
+  Fields:
+    - $stable: I
+    - comment: Ljava/lang/String;
+    - countryCode: Ljava/lang/String;
+    - email: Ljava/lang/String;
+    - id: Ljava/lang/String;
+    - inquiryDate: Ljava/lang/String;
+    - name: Ljava/lang/String;
+    - phoneNo: Ljava/lang/String;
+  Methods:
+    - <init>
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - component2
+    - component3
+    - component4
+    - component5
+    - component6
+    - component7
+    - copy
+    - equals
+    - getComment
+    - getCountryCode
+    - getEmail
+    - getId
+    - getInquiryDate
+    - getName
+    - getPhoneNo
+    - hashCode
+    - setComment
+    - setCountryCode
+    - setEmail
+    - setId
+    - setInquiryDate
+    - setName
+    - setPhoneNo
+    - toString
+
+Class: Lma/i;
+  Fields:
+    - $stable: I
+    - languageCode: Ljava/lang/String;
+    - name: Ljava/lang/String;
+  Methods:
+    - <init>
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - component2
+    - copy
+    - equals
+    - getLanguageCode
+    - getName
+    - hashCode
+    - setLanguageCode
+    - setName
+    - toString
+
+Class: Lma/j;
+  Fields:
+    - address: Ljava/lang/String;
+    - age: I
+    - appSubscriptionExpiryDate: Ljava/lang/String;
+    - batchId: Ljava/lang/String;
+    - batchInTime: Ljava/lang/String;
+    - batchName: Ljava/lang/String;
+    - batchOutTime: Ljava/lang/String;
+    - countryCode: Ljava/lang/String;
+    - createdAt: Ljava/util/Date;
+    - damount: Ljava/lang/String;
+    - discount: Ljava/lang/String;
+    - discounttype: Ljava/lang/String;
+    - dob: Ljava/lang/String;
+    - doj: Ljava/lang/String;
+    - edate: Ljava/lang/String;
+    - email: Ljava/lang/String;
+    - freezeStartDate: Ljava/lang/String;
+    - gender: Ljava/lang/String;
+    - govtIdProof: Ljava/lang/String;
+    - gymownerid: Ljava/lang/String;
+    - isBlocked: Z
+    - isFrozen: Z
+    - isMemberSelected: Z
+    - memberAddedByName: Ljava/lang/String;
+    - memberAddedByStaff: Z
+    - memberAddedByUserID: Ljava/lang/String;
+    - memberDietPlanModel: Lma/k;
+    - memberId: Ljava/lang/String;
+    - memberMeasurements: Ljava/util/List;
+    - memberReviewedByOwner: Z
+    - memberWorkoutPlanModel: Lma/o;
+    - name: Ljava/lang/String;
+    - packageId: Ljava/lang/String;
+    - packageName: Ljava/lang/String;
+    - pamount: Ljava/lang/String;
+    - password: Ljava/lang/String;
+    - paymentMode: Ljava/lang/String;
+    - pdate: Ljava/lang/String;
+    - phone: Ljava/lang/String;
+    - photourl: Ljava/lang/String;
+    - primaryPackageId: Ljava/lang/String;
+    - primarypackagedamount: Ljava/lang/String;
+    - primarypackagepamount: Ljava/lang/String;
+    - primarypackagetamount: Ljava/lang/String;
+    - regCode: Ljava/lang/String;
+    - reminderModel: Lma/q;
+    - tamount: Ljava/lang/String;
+    - tax: Ljava/lang/Double;
+    - trainerId: Ljava/lang/String;
+    - trainerName: Ljava/lang/String;
+    - trainingtype: Ljava/lang/String;
+  Methods:
+    - <init>
+    - <init>
+    - getAddress
+    - getAge
+    - getAppSubscriptionExpiryDate
+    - getBatchId
+    - getBatchInTime
+    - getBatchName
+    - getBatchOutTime
+    - getCountryCode
+    - getCreatedAt
+    - getDamount
+    - getDiscount
+    - getDiscounttype
+    - getDob
+    - getDoj
+    - getEdate
+    - getEmail
+    - getFreezeStartDate
+    - getGender
+    - getGovtIdProof
+    - getGymownerid
+    - getIsBlocked
+    - getIsFrozen
+    - getMemberAddedByName
+    - getMemberAddedByStaff
+    - getMemberAddedByUserID
+    - getMemberDietPlanModel
+    - getMemberId
+    - getMemberMeasurements
+    - getMemberReviewedByOwner
+    - getMemberWorkoutPlanModel
+    - getName
+    - getPackageId
+    - getPackageName
+    - getPamount
+    - getPassword
+    - getPaymentMode
+    - getPdate
+    - getPhone
+    - getPhotourl
+    - getPrimaryPackageId
+    - getPrimarypackagedamount
+    - getPrimarypackagepamount
+    - getPrimarypackagetamount
+    - getRegCode
+    - getReminderModel
+    - getTamount
+    - getTax
+    - getTrainerId
+    - getTrainerName
+    - getTrainingtype
+    - isMemberSelected
+    - setAddress
+    - setAge
+    - setAppSubscriptionExpiryDate
+    - setBatchId
+    - setBatchInTime
+    - setBatchName
+    - setBatchOutTime
+    - setCountryCode
+    - setCreatedAt
+    - setDamount
+    - setDiscount
+    - setDiscounttype
+    - setDob
+    - setDoj
+    - setEdate
+    - setEmail
+    - setFreezeStartDate
+    - setGender
+    - setGovtIdProof
+    - setGymownerid
+    - setIsBlocked
+    - setIsFrozen
+    - setMemberAddedByName
+    - setMemberAddedByStaff
+    - setMemberAddedByUserID
+    - setMemberDietPlanModel
+    - setMemberId
+    - setMemberMeasurements
+    - setMemberReviewedByOwner
+    - setMemberSelected
+    - setMemberWorkoutPlanModel
+    - setName
+    - setPackageId
+    - setPackageName
+    - setPamount
+    - setPassword
+    - setPaymentMode
+    - setPdate
+    - setPhone
+    - setPhotourl
+    - setPrimaryPackageId
+    - setPrimarypackagedamount
+    - setPrimarypackagepamount
+    - setPrimarypackagetamount
+    - setRegCode
+    - setReminderModel
+    - setTamount
+    - setTax
+    - setTrainerId
+    - setTrainerName
+    - setTrainingtype
+
+Class: Lma/k;
+  Fields:
+    - $stable: I
+    - dietPlanName: Ljava/lang/String;
+    - mealPlanMap: Ljava/util/Map;
+  Methods:
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - component2
+    - copy
+    - equals
+    - getDietPlanName
+    - getMealPlanMap
+    - hashCode
+    - setDietPlanName
+    - setMealPlanMap
+    - toString
+
+Class: Lma/l;
+  Fields:
+    - $stable: I
+    - biceps: Ljava/lang/String;
+    - chest: Ljava/lang/String;
+    - date: Ljava/lang/String;
+    - height: Ljava/lang/String;
+    - thighs: Ljava/lang/String;
+    - waist: Ljava/lang/String;
+    - weight: Ljava/lang/String;
+  Methods:
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - component2
+    - component3
+    - component4
+    - component5
+    - component6
+    - component7
+    - copy
+    - equals
+    - getBiceps
+    - getChest
+    - getDate
+    - getHeight
+    - getThighs
+    - getWaist
+    - getWeight
+    - hashCode
+    - setBiceps
+    - setChest
+    - setDate
+    - setHeight
+    - setThighs
+    - setWaist
+    - setWeight
+    - toString
+
+Class: Lma/m;
+  Fields:
+    - admissionFee: I
+    - billNo: I
+    - damount: Ljava/lang/String;
+    - discount: Ljava/lang/String;
+    - discounttype: Ljava/lang/String;
+    - doj: Ljava/lang/String;
+    - edate: Ljava/lang/String;
+    - gymownerId: Ljava/lang/String;
+    - memberId: Ljava/lang/String;
+    - memberPackageId: Ljava/lang/String;
+    - packageId: Ljava/lang/String;
+    - packageName: Ljava/lang/String;
+    - pamount: Ljava/lang/String;
+    - paymentMode: Ljava/lang/String;
+    - pdate: Ljava/lang/String;
+    - tamount: Ljava/lang/String;
+    - tax: D
+  Methods:
+    - <init>
+    - <init>
+    - getAdmissionFee
+    - getBillNo
+    - getDamount
+    - getDiscount
+    - getDiscounttype
+    - getDoj
+    - getEdate
+    - getGymownerId
+    - getMemberId
+    - getMemberPackageId
+    - getPackageId
+    - getPackageName
+    - getPamount
+    - getPaymentMode
+    - getPdate
+    - getTamount
+    - getTax
+    - setAdmissionFee
+    - setBillNo
+    - setDamount
+    - setDiscount
+    - setDiscounttype
+    - setDoj
+    - setEdate
+    - setGymownerId
+    - setMemberId
+    - setMemberPackageId
+    - setPackageId
+    - setPackageName
+    - setPamount
+    - setPaymentMode
+    - setPdate
+    - setTamount
+    - setTax
+
+Class: Lma/n;
+  Fields:
+    - $stable: I
+    - gymownerId: Ljava/lang/String;
+    - memberId: Ljava/lang/String;
+    - memberServiceId: Ljava/lang/String;
+    - pamount: Ljava/lang/String;
+    - pdate: Ljava/lang/String;
+    - serviceId: Ljava/lang/String;
+    - serviceName: Ljava/lang/String;
+    - tamount: Ljava/lang/String;
+  Methods:
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - component2
+    - component3
+    - component4
+    - component5
+    - component6
+    - component7
+    - component8
+    - copy
+    - equals
+    - getGymownerId
+    - getMemberId
+    - getMemberServiceId
+    - getServiceId
+    - hashCode
+    - setGymownerId
+    - setMemberId
+    - setMemberServiceId
+    - setServiceId
+    - toString
+
+Class: Lma/o;
+  Fields:
+    - $stable: I
+    - exercisePlanMap: Ljava/util/Map;
+    - workoutPlanName: Ljava/lang/String;
+  Methods:
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - component2
+    - copy
+    - equals
+    - getExercisePlanMap
+    - getWorkoutPlanName
+    - hashCode
+    - setExercisePlanMap
+    - setWorkoutPlanName
+    - toString
+
+Class: Lma/p;
+  Fields:
+    - $stable: I
+    - amount: Ljava/lang/String;
+    - duration: Ljava/lang/String;
+    - packageid: Ljava/lang/String;
+    - packagename: Ljava/lang/String;
+  Methods:
+    - <init>
+    - <init>
+    - getPackageid
+    - setPackageid
+
+Class: Lma/q$a;
+  Fields:
+  Methods:
+    - <init>
+    - <init>
+    - createFromParcel
+    - createFromParcel
+    - newArray
+    - newArray
+
+Class: Lma/q;
+  Fields:
+    - $stable: I
+    - CREATOR: Lma/q$a;
+    - description: Ljava/lang/String;
+    - endDate: Ljava/lang/String;
+    - endDay: Ljava/lang/Integer;
+    - endHour: Ljava/lang/Integer;
+    - endMin: Ljava/lang/Integer;
+    - endMonth: Ljava/lang/Integer;
+    - endTime: Ljava/lang/String;
+    - endYear: Ljava/lang/Integer;
+    - eventId: Ljava/lang/Long;
+    - startDate: Ljava/lang/String;
+    - startDay: Ljava/lang/Integer;
+    - startHour: Ljava/lang/Integer;
+    - startMin: Ljava/lang/Integer;
+    - startMonth: Ljava/lang/Integer;
+    - startTime: Ljava/lang/String;
+    - startYear: Ljava/lang/Integer;
+    - title: Ljava/lang/String;
+  Methods:
+    - <clinit>
+    - <init>
+    - <init>
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - component10
+    - component11
+    - component12
+    - component13
+    - component14
+    - component15
+    - component16
+    - component17
+    - component2
+    - component3
+    - component4
+    - component5
+    - component6
+    - component7
+    - component8
+    - component9
+    - copy
+    - describeContents
+    - equals
+    - getDescription
+    - getEndDate
+    - getEndDay
+    - getEndHour
+    - getEndMin
+    - getEndMonth
+    - getEndTime
+    - getEndYear
+    - getEventId
+    - getStartDate
+    - getStartDay
+    - getStartHour
+    - getStartMin
+    - getStartMonth
+    - getStartTime
+    - getStartYear
+    - getTitle
+    - hashCode
+    - setDescription
+    - setEndDate
+    - setEndDay
+    - setEndHour
+    - setEndMin
+    - setEndMonth
+    - setEndTime
+    - setEndYear
+    - setEventId
+    - setStartDate
+    - setStartDay
+    - setStartHour
+    - setStartMin
+    - setStartMonth
+    - setStartTime
+    - setStartYear
+    - setTitle
+    - toString
+    - writeToParcel
+
+Class: Lma/r;
+  Fields:
+    - $stable: I
+    - amount: Ljava/lang/String;
+    - serviceId: Ljava/lang/String;
+    - servicename: Ljava/lang/String;
+  Methods:
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - component2
+    - component3
+    - copy
+    - equals
+    - getServiceId
+    - hashCode
+    - setServiceId
+    - toString
+
+Class: Lma/s$a;
+  Fields:
+  Methods:
+    - <init>
+    - <init>
+    - createFromParcel
+    - createFromParcel
+    - newArray
+    - newArray
+
+Class: Lma/s;
+  Fields:
+    - $stable: I
+    - CREATOR: Lma/s$a;
+    - id: Ljava/lang/String;
+    - isChecked: Z
+    - message: Ljava/lang/String;
+    - title: Ljava/lang/String;
+  Methods:
+    - <clinit>
+    - <init>
+    - <init>
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - component2
+    - component3
+    - component4
+    - copy
+    - describeContents
+    - equals
+    - getId
+    - getMessage
+    - getTitle
+    - hashCode
+    - isChecked
+    - setChecked
+    - setId
+    - setMessage
+    - setTitle
+    - toString
+    - writeToParcel
+
+Class: Lma/t;
+  Fields:
+    - $stable: I
+    - address: Ljava/lang/String;
+    - countryCode: Ljava/lang/String;
+    - dob: Ljava/lang/String;
+    - doj: Ljava/lang/String;
+    - email: Ljava/lang/String;
+    - featureAccess: Lma/u;
+    - gymownerid: Ljava/lang/String;
+    - name: Ljava/lang/String;
+    - phone: Ljava/lang/String;
+    - photourl: Ljava/lang/String;
+    - salary: Ljava/lang/String;
+    - trainerId: Ljava/lang/String;
+  Methods:
+    - <init>
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - component10
+    - component11
+    - component12
+    - component2
+    - component3
+    - component4
+    - component5
+    - component6
+    - component7
+    - component8
+    - component9
+    - copy
+    - equals
+    - getFeatureAccess
+    - getGymownerid
+    - getTrainerId
+    - hashCode
+    - setFeatureAccess
+    - setGymownerid
+    - setTrainerId
+    - toString
+
+Class: Lma/u;
+  Fields:
+    - $stable: I
+    - addMembers: Z
+    - batches: Z
+    - collections: Z
+    - dashboards: Z
+    - deleteMembers: Z
+    - trainers: Z
+  Methods:
+    - <init>
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - component2
+    - component3
+    - component4
+    - component5
+    - component6
+    - copy
+    - equals
+    - getAddMembers
+    - getBatches
+    - getCollections
+    - getDashboards
+    - getDeleteMembers
+    - getTrainers
+    - hashCode
+    - setAddMembers
+    - setBatches
+    - setCollections
+    - setDashboards
+    - setDeleteMembers
+    - setTrainers
+    - toString
+
+Class: Lma/v;
+  Fields:
+    - $stable: I
+    - workoutPlanId: Ljava/lang/String;
+    - workoutPlanName: Ljava/lang/String;
+  Methods:
+    - <init>
+    - <init>
+    - copy$default
+    - component1
+    - component2
+    - copy
+    - equals
+    - getWorkoutPlanId
+    - getWorkoutPlanName
+    - hashCode
+    - setWorkoutPlanId
+    - setWorkoutPlanName
+    - toString
+

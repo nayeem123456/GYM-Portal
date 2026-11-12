@@ -1,0 +1,13 @@
+*.iml
+.gradle/
+.idea/
+/build/
+build/
+app-project/.gradle/
+app-project/build/
+app-project/app/build/
+app-project/local.properties
+local.properties
+.DS_Store
+.cxx
+*.hprof
